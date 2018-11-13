@@ -1,2 +1,2 @@
 # dubbo-example
-dubbo例子程序
+dubbo例子程序。
