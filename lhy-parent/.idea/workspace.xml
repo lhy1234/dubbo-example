@@ -18,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -51,13 +51,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/../lhy-facade/src/main/java/com/lhy/facade/pojo/User.java" />
-        <option value="$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/com/caucho/hessian/security/X509Signature.class" />
-        <option value="$USER_HOME$/.m2/repository/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/container/Main.class" />
+        <option value="$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/com/caucho/hessian/security/X509Signature.class" />
+        <option value="$MAVEN_REPOSITORY$/com/alibaba/dubbo/2.5.3/dubbo-2.5.3.jar!/com/alibaba/dubbo/container/Main.class" />
         <option value="$PROJECT_DIR$/../lhy-service/src/main/java/com/lhy/facade/impl/UserFacadeImpl.java" />
         <option value="$PROJECT_DIR$/../lhy-service/src/main/java/com/lhy/service/controller/ZookeeperBase.java" />
         <option value="$PROJECT_DIR$/../lhy-consumer/src/main/java/com/lhy/controller/UserController.java" />
         <option value="$PROJECT_DIR$/../lhy-consumer/src/main/resource/spring/springmvc.xml" />
-        <option value="$USER_HOME$/.m2/repository/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
+        <option value="$MAVEN_REPOSITORY$/org/springframework/spring-web/4.1.3.RELEASE/spring-web-4.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class" />
         <option value="$PROJECT_DIR$/lhy-pojo/pom.xml" />
         <option value="$PROJECT_DIR$/../lhy-consumer/src/main/java/com/lhy/consumer/service/UserService.java" />
         <option value="$PROJECT_DIR$/../lhy-dao/pom.xml" />
@@ -243,8 +243,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
@@ -586,11 +586,12 @@
       <workItem from="1541937652587" duration="20000" />
       <workItem from="1541945710492" duration="1244000" />
       <workItem from="1542101241406" duration="1715000" />
+      <workItem from="1542112862978" duration="671000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108110000" />
+    <option name="totallyTimeSpent" value="108781000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -612,14 +613,14 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14605543" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.49295774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49295774" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15245202" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="734" y="208" width="451" height="623" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15405117" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" x="734" y="208" width="451" height="623" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -674,7 +675,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-annotation/3.0.5/mybatis-plus-annotation-3.0.5.jar!/com/baomidou/mybatisplus/annotation/TableId.class">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-annotation/3.0.5/mybatis-plus-annotation-3.0.5.jar!/com/baomidou/mybatisplus/annotation/TableId.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
           <caret line="19" column="32" lean-forward="false" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="32" />
@@ -717,7 +718,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../lhy-service/src/main/java/com/lhy/service/controller/ZookeeperBase.java" />
-    <entry file="jar://$USER_HOME$/.m2/repository/com/lhy/lhy-pojo/1.0/lhy-pojo-1.0.jar!/com/lhy/pojo/User.class" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/lhy/lhy-pojo/1.0/lhy-pojo-1.0.jar!/com/lhy/pojo/User.class" />
     <entry file="file://$PROJECT_DIR$/../lhy-core/src/test/java/com/lhy/AppTest.java" />
     <entry file="file://$PROJECT_DIR$/../lhy-service/src/main/java/com/lhy/user/facadeimpl/UserFacadeImpl.java" />
     <entry file="file://$PROJECT_DIR$/../lhy-facade/src/main/java/com/lhy/service/pojo/UserFacade.java" />
