@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lhy-dao:war">
+    <output-path>$PROJECT_DIR$/../lhy-dao/target</output-path>
+    <root id="archive" name="lhy-dao.war">
+      <element id="artifact" artifact-name="lhy-dao:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lhy-consumer" />
+        <module name="lhy-facade" />
+        <module name="lhy-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="lhy-consumer" target="1.7" />
+      <module name="lhy-core" target="1.7" />
+      <module name="lhy-dao" target="1.7" />
+      <module name="lhy-facade" target="1.7" />
+      <module name="lhy-parent" target="1.7" />
+      <module name="lhy-pojo" target="1.7" />
+      <module name="lhy-service" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

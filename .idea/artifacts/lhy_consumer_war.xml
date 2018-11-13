@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="lhy-consumer:war">
+    <output-path>$PROJECT_DIR$/lhy-consumer/target</output-path>
+    <root id="archive" name="lhy-consumer.war">
+      <element id="artifact" artifact-name="lhy-consumer:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,6 @@
+com\lhy\service\pojo\User.class
+com\lhy\service\user\AccountFacade.class
+com\lhy\service\pojo\Account.class
+com\lhy\service\pojo\Product.class
+com\lhy\service\user\ProductFacade.class
+com\lhy\service\user\UserFacade.class

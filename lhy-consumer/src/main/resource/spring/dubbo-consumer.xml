@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+	http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+
+<!-- 消费方应用名，用于计算依赖关系，不是匹配条件，不要与提供方一样 -->
+    <dubbo:application name="lhy-consumer"  />
+
+    <!--使用zookeeper注册中心暴露服务地址-->
+    <dubbo:registry address="zookeeper://192.168.85.3:2181?backup=192.168.85.4:2181,192.168.85.5:2181"/>
+
+    <!--生成远程服务代理，可以和本地bean一样使用demoService
+     ***** 启动时检查：
+     check="true"，Dubbo 缺省会在启动时检查依赖的服务是否可用，不可用时会抛出异常，阻止 Spring 初始化完成，以便上线时，能及早发现问题，默认 check="true"
+    -->
+    <dubbo:reference id="userFacade" interface="com.lhy.service.user.UserFacade" check="false" />
+
+
+    <!--
+        url="dubbo://localhost:20880"直连提供者
+        在开发及测试环境下，经常需要绕过注册中心，只测试指定服务提供者，
+        这时候可能需要点对点直连，点对点直连方式，将以服务接口为单位，
+        忽略注册中心的提供者列表，A 接口配置点对点，不影响 B 接口从注册中心获取列表。
+    -->
+    <dubbo:reference id="productFacade" interface="com.lhy.service.user.ProductFacade" check="true" />
+
+
+    <!---->
+    <dubbo:reference id="accountFacade" interface="com.lhy.service.user.AccountFacade" url="dubbo://localhost:20880" />
+</beans>
